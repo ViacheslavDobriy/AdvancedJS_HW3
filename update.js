@@ -43,40 +43,6 @@ buttonShowEl.addEventListener("click", () => {
           });
         }
       });
-      // buttonShowEl.disabled = true;
     }
   }
 });
-
-// const productElems = document.querySelectorAll("productTitle");
-// console.log(productElems);
-
-// for (let key in localStorage) {
-//   if (localStorage.hasOwnProperty(key)) {
-//     const productName = document.createElement("h1");
-//     productName.textContent = key;
-//     contentEl.appendChild(productName);
-//     productName.addEventListener("click", () => {
-//       if (JSON.parse(localStorage.getItem(key)).length !== null) {
-//         JSON.parse(localStorage.getItem(key)).forEach((element) => {
-//           const productReview = document.createElement("p");
-//           productReview.textContent = element;
-//           productName.append(productReview);
-//           const buttonDelete = document.createElement("button");
-//           buttonDelete.textContent = "Удалить отзыв";
-//           productReview.appendChild(buttonDelete);
-//           buttonDelete.addEventListener("click", () => {
-//             // preventDefault();
-//             // const dataOfKey = JSON.parse(localStorage.getItem(key));
-//             localStorage.removeItem(key);
-//             // console.log(`До удаления ${dataOfKey}`);
-//             // console.log(productReview.TEXT_NODE);
-//             // dataOfKey.filter((el) => el === productReview.textContent);
-//             // console.log(`После удаления ${dataOfKey}`);
-//             // localStorage.setItem(key, JSON.stringify(dataOfKey));
-//           });
-//         });
-//       }
-//     });
-//   }
-// }
